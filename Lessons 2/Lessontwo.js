@@ -38,7 +38,7 @@ let bookFour= {
     title: "Misery",
     pageCount: 564,
     genre: "thriller",
-    author: ["Stephen King",78 ]
+    author: [{name:"Stephen King" ,age:78},{name:"George R.R. Martin", age:68},{name:"Herbert Wells",age:147} ]
 }
 
 
@@ -46,78 +46,24 @@ let bookFive={
     title:"A game of thrones",
     pageCount:896,
     genre:"novel",
-    author: ["George R.R. Martin",68]
+    author: [{name:"George R.R. Martin", age:68},{name:"Stephen King" ,age:78},{name:"Herbert Wells",age:147}]
 };
 
 let bookSix={
     title: "The war of the worlds",
     pageCount:542,
     genre:"Science fiction",
-    author:["Herbert Wells",147]
+    author:[{name:"Herbert Wells",age:147},{name:"Stephen King" ,age:78},{name:"George R.R. Martin", age:68}]
 }
 
 // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
 
-const nick={
-    name:"Nick",
-    username:"Niko@51",
-    password: 1232445
-}
+const users = [{name: "Nick", username: "Niko@51", password: 1232445}, {name: "John", username: "John12@", password: 42135132},
+               {name: "Roman", username: "Roman@78545", password: 5121532},{ name:"Anna", username:"A@nna87", password:321215},
+               { name:"Viktoria", username:"Vik@5222", password:6153558},{ name:"Max", username:"Maxim", password:2326562},
+               {name:"Igor", username:"Igor@00", password:12135},{ name:"Natalia", username:"N@t@lia", password:89899},
+               {name:"Adam", username:"@Dam", password:44568761}, {name:"Boris", username:"Bor", password:84512325}]
 
-const john={
-    name: "John",
-    username: "John12@",
-    password: 42135132
-}
-
-const roman={
-    name:"Roman",
-    username:"Roman@78545",
-    password:5121532
-}
-
-const anna={
-    name:"Anna",
-    username:"A@nna87",
-    password:321215
-}
-
-const viktoria={
-    name:"Viktoria",
-    username:"Vik@5222",
-    password:6153558
-}
-
-const max={
-    name:"Max",
-    username:"Maxim",
-    password:2326562
-}
-
-const igor={
-    name:"Igor",
-    username:"Igor@00",
-    password:12135
-}
-const natalia={
-    name:"Natalia",
-    username:"N@t@lia",
-    password:89899
-}
-
-const adam={
-    name:"Adam",
-    username:"@Dam",
-    password:44568761
-}
-
-const boris={
-    name:"Boris",
-    username:"Bor",
-    password:84512325
-}
-
-let users=[nick,john,roman,anna,viktoria,max,igor,natalia,adam,boris]
 console.log(users[0].password)
 console.log(users[1]["password"])
 console.log(users[2].password)
