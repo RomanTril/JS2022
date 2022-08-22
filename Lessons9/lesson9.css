@@ -1,32 +1,41 @@
 
-.main{
-    border: 3px solid red;
-}
-.wrap{
-    display: flex;
-    justify-content:space-between;
+/*.main{*/
+/*    border: 3px solid red;*/
+/*}*/
+/*.wrap{*/
+/*    display: flex;*/
+/*    justify-content:space-between;*/
+/*    text-align: center;*/
+/*    margin: 20px;*/
+/*}*/
+/*.title{*/
+/*    text-align: center;*/
+/*    border: 3px solid midnightblue;*/
+/*    margin: 20px;*/
+/*}*/
+/*.monthDuration{*/
+/*    width: 20%;*/
+/*    border: 3px solid midnightblue;*/
+/*}*/
+/*.hourDuration{*/
+/*    width: 70%;*/
+/*    border: 3px solid midnightblue;*/
+/*}*/
+/*.ul{*/
+/*    border: 3px solid midnightblue;*/
+/*    margin: 20px;*/
+/*}*/
+/*.li{*/
+/*    height: 30px;*/
+/*    border: 3px solid midnightblue;*/
+/*    margin: 10px;*/
+/*}*/
+
+
+th,td{
+    border: 1px solid black;
+    min-width: 60px;
+    height: 100px;
     text-align: center;
-    margin: 20px;
 }
-.title{
-    text-align: center;
-    border: 3px solid midnightblue;
-    margin: 20px;
-}
-.monthDuration{
-    width: 20%;
-    border: 3px solid midnightblue;
-}
-.hourDuration{
-    width: 70%;
-    border: 3px solid midnightblue;
-}
-.ul{
-    border: 3px solid midnightblue;
-    margin: 20px;
-}
-.li{
-    height: 30px;
-    border: 3px solid midnightblue;
-    margin: 10px;
-}
+

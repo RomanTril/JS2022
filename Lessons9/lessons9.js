@@ -344,6 +344,7 @@
 // (Додатковачастина для завдання)
 
 let body=document.getElementsByTagName('body')[0];
+let table=document.createElement('table');
 let forms=document.createElement('form');
 let countString=document.createElement('input');
 let countCells=document.createElement('input');
@@ -358,7 +359,7 @@ countString.placeholder='Кількість рядків';
 countCells.placeholder='Кількість ячеєк';
 contentsCell.placeholder='Вміст ячеєк';
 button.innerText='Таблиця';
-body.appendChild(forms);
+body.append(forms,table);
 forms.append(countString,countCells,contentsCell,button);
 
 let form1=document.forms.f1;
@@ -368,13 +369,14 @@ form1.onsubmit=function (e){
     let cells=this.countCells.value;
     let content=this.contentsCell.value;
     for (let i = 0; i < string; i++) {
-        let boxString=document.createElement('div');
+        let boxString=document.createElement('tr');
 
          for (let j = 0; j < cells; j++) {
-            let boxCells=document.createElement('h2');
+            let boxCells=document.createElement('td');
             boxCells.innerText=content;
             boxString.appendChild(boxCells);
          }
-            console.log(boxString);
+            table.append(boxString);
+
     }
 }
