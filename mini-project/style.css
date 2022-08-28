@@ -1,0 +1,244 @@
+
+.usersMainDiv{
+    width: 100%;
+    background: slategrey;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    border: paleturquoise solid 2px;
+    border-radius: 20px;
+}
+
+.divInner{
+    background: grey;
+    border: paleturquoise solid 2px;
+    width: 40%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px white;
+}
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Trattatello, fantasy;
+    font-weight: 500;
+
+}
+
+.divInner p {
+    font-size: 20px;
+}
+
+.divInner button{
+   background: olive;
+    border-radius: 10px;
+    box-shadow: 0 15px 35px ;
+    transition: 0.5s;
+    letter-spacing: 2px;
+}
+button{
+    border: 2px solid white;
+    transition-delay: 0.5s;
+}
+button:hover{
+    box-shadow: 5px 15px 35px white ;
+    background:powderblue;
+}
+
+
+.father{
+    width: 90%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0 auto 20px;
+    background: slategrey;
+    border: paleturquoise solid 2px;
+    border-radius: 20px;
+}
+
+.child{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+
+.divNestedObject{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: dodgerblue solid 2px;
+    box-shadow: 0 10px 20px dodgerblue;
+    background: grey;
+    border-radius: 10px;
+}
+
+.userP{
+    width: 40%;
+    box-sizing: border-box;
+    padding: 5px;
+    border: paleturquoise solid 2px;
+    box-shadow: 0 10px 20px white;
+    background: grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btnDiv button{
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 35px dodgerblue;
+    font-size: 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%;
+}
+.btnDiv{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background: slategrey;
+    box-sizing: border-box;
+    gap: 5px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+.itemDiv{
+    border: paleturquoise solid 2px;
+    width: 17%;
+    border-radius: 10px;
+    height: 200px;
+    box-shadow: 0 10px 20px white;
+    box-sizing: border-box;
+
+}
+
+.itemP{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+.itemDiv button{
+    width: 50%;
+    height: 20%;
+    border-radius: 10px;
+    box-shadow: 0 15px 35px dodgerblue;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    border: paleturquoise solid 2px;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+}
+.itemDiv button:hover{
+    box-shadow: 5px 15px 35px white ;
+    background:powderblue;
+
+}
+
+
+
+
+.wrap{
+    background: slategrey;
+    width: 90%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 0 auto 20px;
+    border: paleturquoise solid 2px;
+    border-radius: 20px;
+
+}
+
+.wrap div{
+    padding: 10px;
+    box-sizing: border-box;
+    background: grey;
+    border: paleturquoise solid 2px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px white;
+}
+.comment  {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background: slategrey;
+    border-radius: 20px;
+    border: paleturquoise solid 2px;
+}
+.comment button{
+    background: olive;
+    border-radius: 10px;
+    box-shadow: 0 15px 35px ;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 90%;
+    font-size: 20px;
+}
+ button:hover {
+    box-shadow: 5px 15px 35px white;
+    background: powderblue;
+}
+.grandfatherDiv{
+    width: 90%;
+    box-sizing: border-box;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    flex-wrap: wrap;
+    background: slategrey;
+    border-radius: 20px;
+
+}
+
+.grandfatherDiv div {
+    background: grey;
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px white;
+    border: paleturquoise solid 2px;
+}
+
+
+
